@@ -8,7 +8,9 @@
 
 </head>
 <body>
-    <div id="barra" > <h1>hola</h1></div>
+        <div id="barra" > 
+            <img src=""<log alt=""> 
+        </div>
 
     
 </body>
