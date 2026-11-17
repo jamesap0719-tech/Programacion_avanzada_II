@@ -10,12 +10,11 @@
 
     <?php require __DIR__ . '/cabecera.php'; ?>
 
-    <main>
-        
-        <h2>¿Quiénes somos?</h2>
-        <p>Servicios del Istmo es una empresa panameña de soporte tecnológico que ayuda a hogares, estudiantes y pequeñas empresas a mantener sus equipos funcionando.</p>
+    <div id= "cont-port">
+                <img id="port" src="portada.jpg" alt="">
 
-        <?php echo '<p>¡Bienvenido! Conoce nuestros servicios.</p>'; ?>
+    </div>
+
 
 
     <?php include __DIR__ . '/pie.php'; ?>
