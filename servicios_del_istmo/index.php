@@ -12,7 +12,9 @@
 
     <div id= "cont-port">
                 <img id="port" src="portada.jpg" alt="">
-
+                <h1>Servicisos del Istmo </h1>
+                <p>Se integra a tu familia, <br>
+                    para transformar el futuro</p>
     </div>
 
 

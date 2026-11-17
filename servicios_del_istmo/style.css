@@ -33,3 +33,26 @@
     display: block;  
     border-radius: 5px;
 }
+#cont-port h1 {
+    position: absolute;            /* flota sobre la imagen */
+    top: 35%;
+    left: 20%;
+    transform: translate(-50%, -50%);  /* lo centra exacto */
+    margin: 0;
+
+    color: #ffffff;
+    font-size: 3.7rem;
+    text-align: center;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);  /* sombra para que se lea */
+}
+#cont-port p {
+    position: absolute;            /* flota sobre la imagen */
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);  /* lo centra exacto */
+
+    color: #ffffff;
+    font-size: 1.9rem;
+    text-align: center;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);  /* sombra para que se lea */
+}
