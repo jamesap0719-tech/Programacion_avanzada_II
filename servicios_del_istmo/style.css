@@ -1,19 +1,23 @@
 
 
-#barra{
+#barra {
     height: 60px;
     width: 80%;
+    background: #ffffff;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     border-radius: 10px;
 
-    position: fixed;
-  top: 10px;
-  left: 50%;
-   transform: translateX(-50%);   /* la mueve la mitad de su ancho a la izquierda */
-  width: 1080px;
-  max-width: 95%;
+    position: sticky;
+    top: 15px;
+    margin: 15px auto;   
+    z-index: 100;
+
+    display: flex;
+    align-items: center;
 }
+
 #log{
     height: 90%;
     margin-left: 20px;
+    margin: 3px 3px 3px 3px;
 }
