@@ -8,9 +8,9 @@
 
 </head>
 <body>
-        <div id="barra" > 
-            <img src=""<log alt=""> 
-        </div>
+        <nav id="barra" > 
+        <img id="log" src="logo.webp" alt="">
+        </nav>
 
     
 </body>

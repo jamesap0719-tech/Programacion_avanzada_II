@@ -1,5 +1,19 @@
+
+
 #barra{
-    background-color: aqua;
-    height: 200px;
-    width: 100px;
+    height: 60px;
+    width: 80%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 10px;
+
+    position: fixed;
+  top: 10px;
+  left: 50%;
+   transform: translateX(-50%);   /* la mueve la mitad de su ancho a la izquierda */
+  width: 1080px;
+  max-width: 95%;
+}
+#log{
+    height: 90%;
+    margin-left: 20px;
 }
