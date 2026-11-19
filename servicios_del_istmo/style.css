@@ -26,7 +26,7 @@
     height:85vh;
     position: relative;
 }
-#port{
+#img-port{
     
     width: 100%;
     height: 100%;
@@ -34,26 +34,68 @@
     display: block;  
     border-radius: 5px;
 }
+#cont-text{
+    
+    width: 40%;
+    height: 80%;
+    position: absolute;          /* solo el bloque flota */
+    top: 45%;
+    transform: translateY(-50%); /* lo centra verticalmente */
+    color: #ffffff;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+}
 #cont-port h1 {
-    position: absolute;            /* flota sobre la imagen */
-    top: 35%;
-    left: 20%;
-    transform: translate(-50%, -50%);  /* lo centra exacto */
-    margin: 0;
-
+    margin: 3%;
+    padding: 0%;
     color: #ffffff;
     font-size: 3.7rem;
-    text-align: center;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);  /* sombra para que se lea */
+    
 }
-#cont-port p {
-    position: absolute;            /* flota sobre la imagen */
-    top: 50%;
-    left: 20%;
-    transform: translate(-50%, -50%);  /* lo centra exacto */
+
+#cont-port h2 {
 
     color: #ffffff;
     font-size: 1.9rem;
     text-align: center;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);  /* sombra para que se lea */
+}
+
+#cont-port p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+:root {
+    --azul: #172842;
+    --turquesa: #00b4c8;
+    --turquesa-oscuro: #00a0b2;
+    --blanco: #ffffff;
+}
+
+#bt {
+    display: inline-block;          /* para que el <a> respete padding y margin */
+    margin: 2%;
+    text-align: center;
+    text-decoration: none;          /* quita el subrayado del enlace */
+    color: var(--blanco);
+    padding: 15px 25px;
+    background-color: var(--turquesa);   /* ← antes #38D2D2 */
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+    text-shadow: none;              /* evita heredar la sombra del texto de la portada */
+
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#bt:hover {
+    background-color: var(--turquesa-oscuro);   /* se oscurece al pasar el mouse */
 }

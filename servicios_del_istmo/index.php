@@ -11,11 +11,19 @@
     <?php require __DIR__ . '/cabecera.php'; ?>
 
     <div id= "cont-port">
-                <img id="port" src="portada.jpg" alt="">
-                <h1>Servicisos del Istmo </h1>
-                <p>Nos integramos a tu familia, <br>
-                    para transformar el futuro</p>
-                    <?php echo '<p>Conoces nuestros</p>'; ?>
+        <img id="img-port" src="portada.jpg" alt="">
+
+                <div id="cont-text">
+                    <h1>Servicisos del Istmo </h1>
+                    <br>
+                    <h2>Nos integramos a tu familia, <br>
+                    para transformar el futuro</h2>
+                    <br>
+                    <?php echo '<p>¿Deseas saber como?</p>'; ?>
+                    <br>
+                    <br>
+                    <button id="bt">Explora nuestros servicios</button> 
+                </div>
     </div>
 
 
