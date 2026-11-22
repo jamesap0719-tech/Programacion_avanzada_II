@@ -99,3 +99,22 @@
 #bt:hover {
     background-color: var(--turquesa-oscuro);   /* se oscurece al pasar el mouse */
 }
+html {
+    scroll-behavior: smooth;
+}
+
+h1{
+    text-align: center;
+}
+#servicios{
+    display: flex;
+    gap: 10px;
+    justify-content: center; 
+
+
+}
+.card{
+    background-color: aqua;
+    height: 60vh;
+    width: 30%;
+}

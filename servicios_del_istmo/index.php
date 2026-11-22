@@ -22,10 +22,22 @@
                     <?php echo '<p>¿Deseas saber como?</p>'; ?>
                     <br>
                     <br>
-                    <button id="bt">Explora nuestros servicios</button> 
+                    <?php echo '<a href="#servicios" id="bt">Explora nuestros servicios</a>'; ?>
                 </div>
+                
+                
     </div>
 
+    <br>
+    
+        <h1>Servicios</h1>
+    <section id="servicios">
+        <div class="card">1 </div>
+        <div class="card">1 </div>
+        <div class="card">1 </div>
+
+
+    </section>
 
 
     <?php include __DIR__ . '/pie.php'; ?>
