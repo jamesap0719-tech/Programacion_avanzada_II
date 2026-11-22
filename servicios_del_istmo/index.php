@@ -11,7 +11,7 @@
     <?php require __DIR__ . '/cabecera.php'; ?>
 
     <div id= "cont-port">
-        <img id="img-port" src="portada.jpg" alt="">
+        <img id="img-port" src="portada.jpg" alt="servicios del istmo">
 
                 <div id="cont-text">
                     <h1>Servicisos del Istmo </h1>
