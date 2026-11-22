@@ -129,7 +129,7 @@ h1{
     width: 150px;   
     margin-top: 10px;          /* tamaño del ícono */
 }
-#f{
+.pi{
     background-color: #00a0b2;
     width: 100px;
 }

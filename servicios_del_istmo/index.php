@@ -54,7 +54,7 @@
         </div>
         <div class="card"> <img src="3_desarrollo.svg" alt="">
         <h2>Desarrollo</h2>
-         <ul>
+        <ul>
         <li>Diseño de páginas web</li>
         <li>Aplicaciones web a la medida</li>
         <li>Aplicaciones móviles</li>
@@ -65,7 +65,6 @@
 
 
     </section>
-
 
     <?php include __DIR__ . '/pie.php'; ?>
 

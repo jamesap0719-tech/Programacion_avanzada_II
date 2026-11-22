@@ -1,1 +1,3 @@
-<h1 id="f"> hola</h1>
+<footer class="pi">
+    <h1>hola</h1>
+</footer>
