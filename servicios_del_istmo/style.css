@@ -102,7 +102,17 @@
 html {
     scroll-behavior: smooth;
 }
+#presentacion {
+    max-width: 800px;      /* que el texto no sea demasiado ancho */
+    margin: 40px auto;     /* centrado, con espacio arriba y abajo */
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
 
+#servicios {
+    scroll-margin-top: 100px;   /* alto de la barra + sus márgenes */
+}
 h1{
     text-align: center;
 }
@@ -129,7 +139,33 @@ h1{
     width: 150px;   
     margin-top: 10px;          /* tamaño del ícono */
 }
-.pi{
-    background-color: #00a0b2;
-    width: 100px;
+
+#pi {
+    background: #172842;          /* azul marino del logo */
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+#pi h3 {
+    color: #00b4c8;               /* turquesa del logo */
+    margin-top: 0;
+}
+
+#contacto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;              /* en pantallas pequeñas pasan a otra línea */
+    gap: 25px;
+}
+
+#cierre {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+#derechos {
+    font-size: 0.85rem;
+    color: #9fb0c4;
 }

@@ -22,13 +22,19 @@
                     <?php echo '<p>¿Deseas saber como?</p>'; ?>
                     <br>
                     <br>
-                    <?php echo '<a href="#servicios" id="bt">Explora nuestros servicios</a>'; ?>
+                    <?php echo '<a href="#presentacion" id="bt">Explora nuestros servicios</a>'; ?>
                 </div>
                 
                 
     </div>
 
-    <br>
+     <p id="presentacion">
+        Servicios del Istmo es una empresa panameña de soporte tecnológico.
+        Ayudamos a hogares, estudiantes y pequeñas empresas a mantener sus equipos
+        funcionando, conectarse a internet de forma segura y desarrollar
+        aplicaciones a su medida.
+    </p>
+    
 
         <h1>Servicios</h1>
     <section id="servicios">
