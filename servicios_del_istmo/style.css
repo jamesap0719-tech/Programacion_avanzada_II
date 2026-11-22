@@ -108,13 +108,24 @@ h1{
 }
 #servicios{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     justify-content: center; 
 
 
 }
 .card{
-    background-color: aqua;
+
     height: 60vh;
     width: 30%;
+    border-radius: 5px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    
+    
+    text-align: center; 
+    
+}
+
+.card img {
+    width: 150px;   
+    margin-top: 10px;          /* tamaño del ícono */
 }

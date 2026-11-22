@@ -29,12 +29,39 @@
     </div>
 
     <br>
-    
+
         <h1>Servicios</h1>
     <section id="servicios">
-        <div class="card">1 </div>
-        <div class="card">1 </div>
-        <div class="card">1 </div>
+        <div class="card"> <img src="1_redes.svg" alt=""> 
+        <h2>Redes</h2>
+            <ul>
+        <li>Instalación de redes Wi-Fi</li>
+        <li>Configuración de routers y módems</li>
+        <li>Cableado estructurado</li>
+        <li>Seguridad de red</li>
+        <li>Diagnóstico de conectividad</li>
+            </ul>
+        </div>
+        <div class="card"> <img src="2_mantenimiento.svg" alt=""> 
+        <h2>Matenimiento</h2>
+        <ul>
+        <li>Mantenimiento preventivo</li>
+        <li>Reparación de hardware</li>
+        <li>Optimización del sistema</li>
+        <li>Eliminación de virus y malware</li>
+        <li>Respaldo y recuperación de datos</li>
+    </ul>
+        </div>
+        <div class="card"> <img src="3_desarrollo.svg" alt="">
+        <h2>Desarrollo</h2>
+         <ul>
+        <li>Diseño de páginas web</li>
+        <li>Aplicaciones web a la medida</li>
+        <li>Aplicaciones móviles</li>
+        <li>Bases de datos</li>
+        <li>Mantenimiento de software</li>
+        </ul>
+        </div>
 
 
     </section>
